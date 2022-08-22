@@ -1,0 +1,55 @@
+/* Top of Page with name and links */
+header {
+    background-color: rgb(74, 74, 216);
+    width: 100%;
+    top: 0;
+}
+
+h1 {
+    display: flex;
+}
+
+.name{
+    align-content:flex-start;
+}
+
+.nav {
+    margin-top: 15px;
+    display: flex;
+    justify-content: right;
+}
+
+.navitem {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*Image with Subtitle section */
+
+.cool_section {
+    background: url(https://img.freepik.com/premium-vector/brick-wall-vector_1459-2333.jpg?w=1060);
+    height: 200px;
+}
+
+.subtitle {
+    text-align: right;
+    
+}
+/* Name for Sections */
+h3{
+    font-size: 40px;
+    color:#29627e; /*this color should match vertical line*/
+    display: flex;
+}
+
+
+/* Part of code that creates the vertical line next to headers */
+aside {
+    width: 40%;
+    padding-left: 20px;
+    margin-left: 20px;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    color: #29627e;
+}
+
+/* Flexbox for projects */
