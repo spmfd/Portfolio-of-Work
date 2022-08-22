@@ -50,6 +50,7 @@ aside {
     margin-left: 20px;
     box-shadow: inset 5px 0 5px -5px #29627e;
     color: #29627e;
+    float: right;
 }
 
 /* Flexbox for projects */
