@@ -43,14 +43,22 @@ h3{
 }
 
 
-/* Part of code that creates the vertical line next to headers */
-aside {
-    width: 40%;
-    padding-left: 20px;
-    margin-left: 20px;
-    box-shadow: inset 5px 0 5px -5px #29627e;
-    color: #29627e;
-    float: right;
+/* flex container specifically for the content and sidebar*/
+
+.flex-container {
+    display: flex;
+}
+
+.main-content {
+    flex: 1 1 85%;
+    border-left: 10px double gray;
+    padding: 5px;
+}
+
+.sidebar {
+    flex: 1 1 15%;
+    text-align: right;
+    padding: 20px;
 }
 
 /* Flexbox for projects */
