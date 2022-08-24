@@ -1,8 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primarycolor: white;
+    --secondarycolor: white;
+} 
+
+html {
+    height: 100%;
+  }
+  
+  body {
+    min-height: 100%;
+    line-height: 1.5;
+    font-family: sans-serif;
+    background-color: whitesmoke;
+  }
 
 li {
     display: inline-block;
-}
-
-body {
-    background-color: whitesmoke;
 }

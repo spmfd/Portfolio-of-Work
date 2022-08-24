@@ -75,8 +75,49 @@ h2 {
     padding: 20px;
 }
 
-/* Flexbox for projects */
+/* Section for cards where projects will be shown off*/
 
+.card_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main_card {
+    background-color: orange;
+    width: 70%;
+    height: 400px;
+    margin: 10px;
+    border: solid green;
+}
+
+.card {
+    background-color: orange;
+    width: 600px;
+    height: 200px;
+    margin: 10px;
+    border: solid green;
+}
+.card-image {
+    background:aqua;
+    height: 80%;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+
+.card-image:hover {
+    filter: brightness(150%);
+    cursor: pointer;
+}
+
+.main_card:hover {
+    filter: brightness(150%);
+    cursor: pointer;
+}
+
+.project-1 {
+    background-image: url(./assets/images/Horiseon_website.png);
+}
 
 /* Contact me section */
 
@@ -91,3 +132,6 @@ h2 {
     font-size: 30px;
     text-decoration: underline;
 }
+
+/* Making the code responsive */
+
