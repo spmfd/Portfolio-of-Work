@@ -46,7 +46,7 @@ h1 {
 
 .subtitle {
     text-align: right;
-    padding-top: 7%;    
+    padding-top: 170px; 
 }
 
 /* Names for Sidebar */
@@ -81,7 +81,13 @@ h2 {
 /* Contact me section */
 
 .content {
-    display:flex;
-    justify-content: space-between;
+    display: flex;
+    justify-content: space-around;
     align-items: center;
+    padding-top: 5%;
+}
+
+.contact_info {
+    font-size: 30px;
+    text-decoration: underline;
 }
