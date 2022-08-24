@@ -1,4 +1,4 @@
-/* Top of Page with name and links */
+/* Top of Page with name and links - NavBar*/
 h1 {
     padding-left:20px;
 }
@@ -37,7 +37,7 @@ h1 {
     padding-right: 20px;
 }
 
-/*Image with Subtitle section */
+/*Header w/Image and Subtitle */
 
 .cool_section {
     background: url(https://img.freepik.com/premium-vector/brick-wall-vector_1459-2333.jpg?w=1060);
@@ -48,7 +48,9 @@ h1 {
     text-align: right;
     padding-top: 7%;    
 }
-/* Name for Sections */
+
+/* Names for Sidebar */
+
 h2 {
     font-size: 40px;
     color:#29627e; /*this color should match vertical line*/
@@ -74,3 +76,12 @@ h2 {
 }
 
 /* Flexbox for projects */
+
+
+/* Contact me section */
+
+.content {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
