@@ -7,6 +7,9 @@ h1 {
     font-weight: bold;
     font-size: 40px;
     color: var(--primarycolor);
+    background: var(--secondarycolor);
+    border: 2px var(--secondarycolor);
+    padding-right: 10px;
 }
 
 .navbar {
@@ -38,7 +41,7 @@ h1 {
     padding-right: 20px;
 }
 
-.navitem:hover {
+.navbar a:hover {
     content: solid var(--secondarycolor);
     background: var(--secondarycolor);
     color: var(--primarycolor);
@@ -55,9 +58,15 @@ h1 {
     text-align: right;
     padding-top: 170px; 
     color: var(--primarycolor);
-    border: black;
 }
 
+.subtitlew {
+    background: var(--secondarycolor);
+    border: 2px var(--secondarycolor);
+    padding-right: 10px;
+    text-align: right; 
+    color: var(--primarycolor);
+}
 /* Names for Sidebar */
 
 h2 {
