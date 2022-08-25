@@ -5,8 +5,8 @@
 }
 
 :root {
-    --primarycolor: white;
-    --secondarycolor: white;
+    --primarycolor: #24536b;
+    --secondarycolor: rgb(8, 184, 184);
 } 
 
 html {
