@@ -38,6 +38,12 @@ h1 {
     padding-right: 20px;
 }
 
+.navitem:hover {
+    content: solid var(--secondarycolor);
+    background: var(--secondarycolor);
+    color: var(--primarycolor);
+}
+
 /*Header w/Image and Subtitle */
 
 .cool_section {
@@ -49,6 +55,7 @@ h1 {
     text-align: right;
     padding-top: 170px; 
     color: var(--primarycolor);
+    border: black;
 }
 
 /* Names for Sidebar */
@@ -153,6 +160,12 @@ h3 {
     font-size: 20px;
     text-decoration: underline;
     color: var(--primarycolor);
+}
+
+.contact_info:hover {
+    content: solid var(--primarycolor);
+    background: var(--primarycolor);
+    color: var(--secondarycolor);
 }
 
 /* Making the code responsive */
