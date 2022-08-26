@@ -1,5 +1,7 @@
 ## Work Portfolio 
 
+[test](www.google.com)
+
 ## Description
 
 The goal of this project was to build my first website from scratch. As I learn more throughout the course I will be able to add more challenges to my cards for viewing as well as updating the code later on as I learn more.
@@ -14,10 +16,6 @@ Now looking at my final product I truly understand the importance and necessity 
 
 No installation required, please use URL:  https://spmfd.github.io/Portfolio-of-work/
 
-## Usage
-
-[test](www.google.com)
-
 ## Credits
 
 List your collaborators, if any, with links to their GitHub profiles.
@@ -29,3 +27,4 @@ If you followed tutorials, include links to those here as well.
 ## License
 
 No liscenses used while making this website
+
