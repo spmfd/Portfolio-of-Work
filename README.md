@@ -14,6 +14,8 @@ Now looking at my final product I truly understand the importance and necessity 
 
 ## Installation
 
+No installation necessary please go to URL: https://spmfd.github.io/prework-study-guide/
+
 ## Credits
 
 I used the following youtube videos to help with my code for Flexbox, sidebar, and cards.
