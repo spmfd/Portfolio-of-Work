@@ -16,7 +16,7 @@ No installation required, please use URL:  https://spmfd.github.io/Portfolio-of-
 
 ## Usage
 
-    ![portfolio_website](../images/portfolio_website.png)
+    ![portfolio_website](https://github.com/spmfd/Portfolio-of-work/blob/main/assets/images/portfolio_website.png?raw=true)
 
 ## Credits
 
