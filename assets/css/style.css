@@ -54,18 +54,26 @@ h1 {
     height: 200px;
 }
 
-.subtitle {
-    text-align: right;
-    padding-top: 170px; 
+.header { 
     color: var(--primarycolor);
+    display: flex;
 }
 
-.subtitlew {
+.subtitle {
+    padding-top: 170px;
+    padding-right: 5%;
+}
+
+header p {
     background: var(--secondarycolor);
     border: 2px var(--secondarycolor);
     padding-right: 10px;
-    text-align: right; 
     color: var(--primarycolor);
+    width: 15%;
+    height: 30px;
+    float: right;
+    font-size: 20px;
+    font-style: bold;
 }
 /* Names for Sidebar */
 
@@ -160,7 +168,7 @@ h3 {
 
 .content {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     padding-top: 5%;
 }
@@ -177,7 +185,30 @@ h3 {
     color: var(--secondarycolor);
 }
 
+/* Footer */
+
+.footer {
+    text-align: center;
+    padding: 5px;
+}
+
+h4 {
+    font-size: 20px;
+}
 /* Making the code responsive */
+
+@media screen and (max-width: 1440px) {
+    h2 {
+        font-size: 30px;
+        color:var(--primarycolor); 
+    }
+
+    header p {
+        font-size: 14px;
+        width: 20%;
+    }
+}
+
 
 @media screen and (max-width: 1024px) {
     /* as screen shrinks text also needs to shrink */
@@ -187,8 +218,12 @@ h3 {
     }
 
     h2 {
-        font-size: 35px;
+        font-size: 30px;
         color:var(--primarycolor); 
+    }
+
+    header p {
+        font-size: 10px;
     }
 
     /* section for card's shrinking based on proportion of screen */
