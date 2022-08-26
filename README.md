@@ -16,11 +16,13 @@ Now looking at my final product I truly understand the importance and necessity 
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
+I used the following youtube videos to help with my code for Flexbox, sidebar, and cards.
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
+https://www.youtube.com/watch?v=3YW65K6LcIA&t=654s
 
-If you followed tutorials, include links to those here as well.
+https://www.youtube.com/watch?v=wVVvbRjnR_I&t=508s
+
+https://www.youtube.com/watch?v=qXRYMdvq_Dc
 
 ## License
 
