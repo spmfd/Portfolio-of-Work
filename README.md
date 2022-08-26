@@ -14,8 +14,6 @@ Now looking at my final product I truly understand the importance and necessity 
 
 ## Installation
 
-No installation required, please use URL:  https://spmfd.github.io/Portfolio-of-work/
-
 ## Credits
 
 List your collaborators, if any, with links to their GitHub profiles.
