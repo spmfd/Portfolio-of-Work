@@ -14,7 +14,6 @@ Now looking at my final product I truly understand the importance and necessity 
 
 ## Installation
 
-
 ## Credits
 
 List your collaborators, if any, with links to their GitHub profiles.
