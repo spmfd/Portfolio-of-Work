@@ -14,13 +14,6 @@ Now looking at my final product I truly understand the importance and necessity 
 
 No installation required, please use URL:  https://spmfd.github.io/Portfolio-of-work/
 
-## Usage
-
-    ```md
-    ![portfolio_website](https://user-images.githubusercontent.com/110492974/186792387-4f380be7-338a-4cbc-89e3-39942baba213.png)
-
-    ```
-
 ## Credits
 
 List your collaborators, if any, with links to their GitHub profiles.
