@@ -1,5 +1,7 @@
 ## Work Portfolio 
 
+![image](https://github.com/spmfd/Portfolio-of-work/blob/main/assets/images/portfolio_website.png?raw=true)
+
 ## Description
 
 The goal of this project was to build my first website from scratch. As I learn more throughout the course I will be able to add more challenges to my cards for viewing as well as updating the code later on as I learn more.
@@ -11,8 +13,6 @@ At this point I decided to dive into flexbox again by watching some youtube vide
 Now looking at my final product I truly understand the importance and necessity of flexbox, in regards to website creation. I now feel it is one of the most important CSS elements to master. Once I do master it I will be able to make website look great without that grid feel. 
 
 ## Installation
-
-No installation required, please use URL:  https://spmfd.github.io/Portfolio-of-work/
 
 ## Credits
 
@@ -27,3 +27,4 @@ https://www.youtube.com/watch?v=qXRYMdvq_Dc
 ## License
 
 No liscenses used while making this website
+

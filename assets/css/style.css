@@ -27,7 +27,7 @@ h1 {
 .navbar a {
     color: var(--secondarycolor);
     font-size: 18px;
-    style: bold;
+    font-weight: bold;
 }
 
 .nav {
