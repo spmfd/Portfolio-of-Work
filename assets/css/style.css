@@ -6,14 +6,11 @@ h1 {
 .name{
     font-weight: bold;
     font-size: 40px;
-    color: var(--primarycolor);
-    background: var(--secondarycolor);
-    border: 2px var(--secondarycolor);
-    padding-right: 10px;
 }
 
 .navbar {
-    background:rgba(1, 1, 61, 0.973);
+    background:blue;
+    color: white;
     height: 100px;
 }
 
@@ -21,13 +18,12 @@ h1 {
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 20px;
 }
 
 .navbar a {
-    color: var(--secondarycolor);
+    color: white;
+    text-decoration: none;
     font-size: 18px;
-    font-weight: bold;
 }
 
 .nav {
@@ -41,12 +37,6 @@ h1 {
     padding-right: 20px;
 }
 
-.navbar a:hover {
-    content: solid var(--secondarycolor);
-    background: var(--secondarycolor);
-    color: var(--primarycolor);
-}
-
 /*Header w/Image and Subtitle */
 
 .cool_section {
@@ -54,32 +44,16 @@ h1 {
     height: 200px;
 }
 
-.header { 
-    color: var(--primarycolor);
-    display: flex;
-}
-
 .subtitle {
-    padding-top: 170px;
-    padding-right: 5%;
+    text-align: right;
+    padding-top: 170px; 
 }
 
-header p {
-    background: var(--secondarycolor);
-    border: 2px var(--secondarycolor);
-    padding-right: 10px;
-    color: var(--primarycolor);
-    width: 15%;
-    height: 30px;
-    float: right;
-    font-size: 20px;
-    font-style: bold;
-}
 /* Names for Sidebar */
 
 h2 {
-    font-size: 60px;
-    color:var(--primarycolor); 
+    font-size: 40px;
+    color:#29627e; /*this color should match vertical line*/
 }
 
 
@@ -91,7 +65,7 @@ h2 {
 
 .main-content {
     flex: 1 1 85%;
-    border-left: 10px double var(--primarycolor);
+    border-left: 10px double gray;
     padding: 15px;
 }
 
@@ -101,18 +75,7 @@ h2 {
     padding: 20px;
 }
 
-.contact {
-    flex: 1 1 15%;
-    text-align: right;
-    padding: 20px;
-}
-
 /* Section for cards where projects will be shown off*/
-
-h3 {
-    font-size: 20px;
-    text-align: center;
-}
 
 .card_container {
     display: flex;
@@ -121,22 +84,22 @@ h3 {
 }
 
 .main_card {
-    background-color: var(--secondarycolor);
+    background-color: orange;
     width: 70%;
     height: 400px;
     margin: 10px;
-    border: solid var(--primarycolor);
+    border: solid green;
 }
 
 .card {
-    background-color: var(--secondarycolor);
+    background-color: orange;
     width: 600px;
     height: 200px;
     margin: 10px;
-    border: solid var(--primarycolor);
+    border: solid green;
 }
-
 .card-image {
+    background:aqua;
     height: 80%;
     margin-bottom: 15px;
     background-size: cover;
@@ -157,134 +120,26 @@ h3 {
 }
 
 .project-2 {
-    background-image: url(../images/prework-study-guide.png);
+    background-image: url(../images/prework_studyguide.png);
 }
 
 .project-3 {
-    background-image: url(../images/istockphoto-inprogress.png);
+    background-image: url(../images/eatNsip.png);
 }
 
 /* Contact me section */
 
 .content {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     padding-top: 5%;
 }
 
 .contact_info {
-    font-size: 20px;
+    font-size: 30px;
     text-decoration: underline;
-    color: var(--primarycolor);
 }
 
-.contact_info:hover {
-    content: solid var(--primarycolor);
-    background: var(--primarycolor);
-    color: var(--secondarycolor);
-}
-
-/* Footer */
-
-.footer {
-    text-align: center;
-    padding: 5px;
-}
-
-h4 {
-    font-size: 20px;
-}
 /* Making the code responsive */
 
-@media screen and (max-width: 1440px) {
-    h2 {
-        font-size: 30px;
-        color:var(--primarycolor); 
-    }
-
-    header p {
-        font-size: 14px;
-        width: 20%;
-    }
-}
-
-
-@media screen and (max-width: 1024px) {
-    /* as screen shrinks text also needs to shrink */
-    
-    .main-content p {
-        font-size: 12px;
-    }
-
-    h2 {
-        font-size: 30px;
-        color:var(--primarycolor); 
-    }
-
-    header p {
-        font-size: 10px;
-    }
-
-    /* section for card's shrinking based on proportion of screen */
-    
-    .card {
-        background-color: var(--secondarycolor);
-        width: 40%;
-        height: 200px;
-        margin: 10px;
-        border: solid var(--primarycolor);
-    }
-    
-    .card-image {
-        height: 70%;
-        margin-bottom: 15px;
-        background-size: cover;
-    }
-
-    h3 {
-        font-size: 16px;
-        text-align: center;
-    }
-    
-
-    /* contact me section adjustment for smaller screens */
-
-    .contact_info {
-        font-size: 16px;
-        text-decoration: underline;
-        color: var(--primarycolor);
-    }
-
-    .content {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        padding-top: 5%;
-    }
-
-    .contact {
-        flex: 1 1 15%;
-        text-align: right;
-        padding: 10px;
-    }
-    
-
-}
-
-@media screen and (max-width: 768px) {
-    h3 {
-        font-size: 12px;
-        text-align: center;
-    }
-
-    .main-content p {
-        font-size: 12px;
-    }
-
-    h2 {
-        font-size: 20px;
-        color:var(--primarycolor); 
-    }
-
-}

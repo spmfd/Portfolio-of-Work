@@ -2,12 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Courier New', Courier, monospace;
 }
 
 :root {
-    --primarycolor: #24536b;
-    --secondarycolor: rgb(8, 184, 184);
+    --primarycolor: white;
+    --secondarycolor: white;
 } 
 
 html {

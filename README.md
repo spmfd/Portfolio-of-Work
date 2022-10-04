@@ -1,32 +1,67 @@
-## Work Portfolio 
-
-![image](https://github.com/spmfd/Portfolio-of-work/blob/main/assets/images/portfolio_website.png?raw=true)
+# <Your-Project-Title>
 
 ## Description
 
-The goal of this project was to build my first website from scratch. As I learn more throughout the course I will be able to add more challenges to my cards for viewing as well as updating the code later on as I learn more.
+Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
 
-While creating this website I feel that I have learned leaps and bounds from when I first started. I'll be honest, I didn't really understand flexbox. So, at the beginning of this project I tried to do as much as I could without using flexbox. After getting a marjority of the content inputted into my website I was struggling with how to present it in a way to match the given example. 
+- What was your motivation?
+- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
+- What problem does it solve?
+- What did you learn?
 
-At this point I decided to dive into flexbox again by watching some youtube videos (the once referenced below in the credits section), worked with some websites on practice, and did some testing. It really opened my eyes as to the power of flexbox when it comes to website design and application. I went from having no flex boxes to multiple with some additional flex rules inside of the containers for even more customization of content.
+## Table of Contents (Optional)
 
-Now looking at my final product I truly understand the importance and necessity of flexbox, in regards to website creation. I now feel it is one of the most important CSS elements to master. Once I do master it I will be able to make website look great without that grid feel. 
+If your README is long, add a table of contents to make it easy for users to find what they need.
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
 
 ## Installation
 
-No installation necessary please go to URL: https://spmfd.github.io/prework-study-guide/
+What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+
+## Usage
+
+Provide instructions and examples for use. Include screenshots as needed.
+
+To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+
+    ```md
+    ![alt text](assets/images/screenshot.png)
+    ```
 
 ## Credits
 
-I used the following youtube videos to help with my code for Flexbox, sidebar, and cards.
+List your collaborators, if any, with links to their GitHub profiles.
 
-https://www.youtube.com/watch?v=3YW65K6LcIA&t=654s
+If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
 
-https://www.youtube.com/watch?v=wVVvbRjnR_I&t=508s
-
-https://www.youtube.com/watch?v=qXRYMdvq_Dc
+If you followed tutorials, include links to those here as well.
 
 ## License
 
-No liscenses used while making this website
+The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
 
+---
+
+🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
+
+## Badges
+
+![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
+
+Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
+
+## Features
+
+If your project has a lot of features, list them here.
+
+## How to Contribute
+
+If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
+
+## Tests
+
+Go the extra mile and write tests for your application. Then provide examples on how to run them here.
