@@ -116,15 +116,19 @@ h2 {
 }
 
 .project-1 {
-    background-image: url(./assets/images/Horiseon_website.png);
+    background-image: url(../images/Horiseon_website.png);
 }
 
 .project-2 {
-    background-image: url(./assets/images/prework_studyguide.png);
+    background-image: url(../images/prework_studyguide.png);
 }
 
 .project-3 {
-    background-image: url(./assets/images/eatNsip.png);
+    background-image: url(../images/eatNsip.png);
+}
+
+.project-4 {
+    background-image: url(../images/homepage.png);
 }
 
 /* Contact me section */
